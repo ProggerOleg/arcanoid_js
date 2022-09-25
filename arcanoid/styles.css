@@ -1,0 +1,32 @@
+body{
+	overflow: hidden;
+	background-image: url('background.webp');
+	background-repeat: repeat;
+}
+#plate {
+	background-color: red;
+	position: absolute;
+	bottom: 50px;
+	left: 40%;
+	padding: 10px;
+	width: 20%;
+	text-align: center;
+	border-radius: 25px;
+}
+#ball {
+	background-color: #99ccff;
+	border-radius: 25px;
+	width: 40px;
+	height: 40px;
+	position:  absolute;
+	top: 300px;
+	left: 300px;
+	margin: -25px 0 0 -25px;
+}
+#lose{
+	display: none;
+	text-align: center;
+	font-size: 5em;
+	color: white;
+	margin-top: 200px;
+}
